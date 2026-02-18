@@ -52,7 +52,8 @@ lib/
 ├── services/    # Business logic and external API calls (NewsService, Supabase logic)
 ├── theme/       # Application styling, and typography settings
 ├── utils/       # Colors, constants, and global utilities
-└── widgets/     # Reusable UI components (BookmarkButton, Custom AppBars, etc.)
+├── widgets/     # Reusable UI components (BookmarkButton, Custom AppBars, etc.)
+└── main.dart    # The starting point of the program
 ```
 
 ## Screenshoots & UI Desgin
@@ -94,4 +95,39 @@ The app uses Supabase for a robust backend. Below is a snapshot of the database 
 To run this project locally, follow these steps:
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/techpulse.git](https://github.com/your-username/techpulse.git)
+   git clone https://github.com/CS-Abdulaziz/tech-news-app.git
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   flutter pub get
+   ```
+   
+3. **Environment Setup (Crucial):**:
+   
+   Create an api_keys.env file in the root directory. Add your API keys to ensure the app functions correctly (this file is git-ignored for security):
+
+   ```bash
+   NEWS_API_KEY = your_news_api_key
+   NEWS_API_BASE_url = https://newsapi.org/v2
+    
+   AI_API_KEY = your_gemini_api_key
+    
+   SUPABASE_API_KEY = your_supabase_anon_key
+   SUPABASE_URL = your_supabase_url
+   ```
+   
+4. **Run the App**:
+
+   ```bash
+   flutter run
+   ```
+---
+
+## 👨‍💻 Developed By
+
+• Abdulaziz Khamis, Computer Science Student & Aspiring AI Engineer & Flutter developer
+
+• My Linkedin:
+  https://www.linkedin.com/in/abdulaziz-al-nomani-229980365/
+
