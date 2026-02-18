@@ -56,7 +56,42 @@ lib/
 ```
 
 ## Screenshoots & UI Desgin
+---
 
+## Onborading screens
 
+<img width="2200" height="1500" alt="3" src="https://github.com/user-attachments/assets/5290bd2d-86aa-4d1a-ae4c-7b246fa0dd38" />
 
+---
+## Login & Signup & Interests selection screens
 
+<img width="2200" height="1500" alt="Your paragraph text" src="https://github.com/user-attachments/assets/e8f5992c-576d-4b44-b94d-c9298f89146a" />
+
+---
+## HomePage & Saved Articles screens
+
+<img width="2200" height="1500" alt="Your paragraph text (1)" src="https://github.com/user-attachments/assets/6f7824ed-ba6f-44a3-82b4-791f7107e5ae" />
+
+---
+## Details Screen
+
+<img width="2200" height="1500" alt="6" src="https://github.com/user-attachments/assets/9ed0f34a-daa5-4001-a43d-2a1272edaa7a" />
+
+---
+## Scearch & Profile Screens
+<img width="2200" height="1500" alt="7" src="https://github.com/user-attachments/assets/81c72f10-c450-4585-a88e-8ad93df064c5" />
+
+---
+## 🗄️ Database Schema
+
+The app uses Supabase for a robust backend. Below is a snapshot of the database tables used for storing user data, interests, and bookmarked articles:
+
+<img width="1462" height="682" alt="supabase-schema-ncqicizjtmewpbhkclcq (2)" src="https://github.com/user-attachments/assets/1d16649b-5f1b-4d3e-9cee-a4bb690ae651" />
+
+---
+## 🚀 Getting Started
+
+To run this project locally, follow these steps:
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/techpulse.git](https://github.com/your-username/techpulse.git)
