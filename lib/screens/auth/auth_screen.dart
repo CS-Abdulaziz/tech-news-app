@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:techpluse/screens/interesting_screen.dart';
+import 'package:techpluse/screens/main_layout.dart';
 import 'package:techpluse/widgets/animated_aurora_background.dart';
 
 class AuthScreen extends StatefulWidget {
@@ -53,11 +54,9 @@ class _AuthScreenState extends State<AuthScreen> {
         password: loginPassController.text.trim(),
       );
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('Successfully registred'),
-            backgroundColor: Colors.green,
-          ),
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (_) => const MainLayout()),
         );
       }
     } on AuthException catch (e) {
