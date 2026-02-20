@@ -12,14 +12,14 @@
 
 ---
 
-## 📖 About The Project
+## About The Project
 **TechPulse** is a modern, personalized news aggregator built with Flutter. Designed for tech enthusiasts, it moves beyond generic news feeds by allowing users to tailor their content based on specific technological interests. 
 
 To break language barriers and save time, TechPulse integrates **Google Gemini AI** to instantly summarize complex articles and provide accurate Arabic translations.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### Core Functionality
 - **Secure Authentication:** Robust user sign-up and login flows powered by Supabase Auth.
@@ -90,7 +90,7 @@ The app uses Supabase for a robust backend. Below is a snapshot of the database 
 <img width="1462" height="682" alt="supabase-schema-ncqicizjtmewpbhkclcq (2)" src="https://github.com/user-attachments/assets/1d16649b-5f1b-4d3e-9cee-a4bb690ae651" />
 
 ---
-## 🚀 Getting Started
+## Getting Started
 
 To run this project locally, follow these steps:
 1. **Clone the repository:**
@@ -124,10 +124,11 @@ To run this project locally, follow these steps:
    ```
 ---
 
-## 👨‍💻 Developed By
+## Developed By
 
 • Abdulaziz Khamis, Computer Science Student & Aspiring AI Engineer & Flutter developer
 
 • My Linkedin:
   https://www.linkedin.com/in/abdulaziz-al-nomani-229980365/
+
 
